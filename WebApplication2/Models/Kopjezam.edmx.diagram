@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="392a44965f1143b3852e4c211d1281e1" Name="Diagram1">
+        <EntityTypeShape EntityType="kopjezwam_dbModel.AclRecord" Width="1.5" PointX="17.25" PointY="58.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ActivityLog" Width="1.5" PointX="12" PointY="64.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ActivityLogType" Width="1.5" PointX="9.75" PointY="60.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Address" Width="1.5" PointX="7.5" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.AddressAttribute" Width="1.5" PointX="11.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.AddressAttributeValue" Width="1.5" PointX="14" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Affiliate" Width="1.5" PointX="9.75" PointY="55" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.BackInStockSubscription" Width="1.5" PointX="15" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.BlogComment" Width="1.5" PointX="12" PointY="71.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.BlogPost" Width="1.5" PointX="9.75" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Campaign" Width="1.5" PointX="5.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Category" Width="1.5" PointX="9.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CategoryTemplate" Width="1.5" PointX="11.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CheckoutAttribute" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CheckoutAttributeValue" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Country" Width="1.5" PointX="3" PointY="53.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CrossSellProduct" Width="1.5" PointX="13.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Currency" Width="1.5" PointX="5.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Customer" Width="1.5" PointX="9.75" PointY="63.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CustomerAttribute" Width="1.5" PointX="5.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CustomerAttributeValue" Width="1.5" PointX="8" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CustomerPassword" Width="1.5" PointX="12" PointY="68.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.CustomerRole" Width="1.5" PointX="15" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.DeliveryDate" Width="1.5" PointX="11.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Discount" Width="1.5" PointX="7.5" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.DiscountRequirement" Width="1.5" PointX="9.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.DiscountUsageHistory" Width="1.5" PointX="26.25" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Download" Width="1.5" PointX="13.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.EmailAccount" Width="1.5" PointX="10.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Exceptions" Width="1.5" PointX="15.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ExternalAuthenticationRecord" Width="1.5" PointX="12" PointY="76" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Forums_Forum" Width="1.5" PointX="15.75" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Forums_Group" Width="1.5" PointX="13.5" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Forums_Post" Width="1.5" PointX="15" PointY="71.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Forums_PostVote" Width="1.5" PointX="17.25" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Forums_PrivateMessage" Width="1.5" PointX="12" PointY="83.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Forums_Subscription" Width="1.5" PointX="12" PointY="87.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Forums_Topic" Width="1.5" PointX="18" PointY="66.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.GenericAttribute" Width="1.5" PointX="2.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.GiftCard" Width="1.5" PointX="28.5" PointY="71.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.GiftCardUsageHistory" Width="1.5" PointX="26.25" PointY="64.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.GoogleProduct" Width="1.5" PointX="15.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Language" Width="1.5" PointX="13.5" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Languages" Width="1.5" PointX="15.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.LocaleStringResource" Width="1.5" PointX="15.75" PointY="83.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.LocalizedProperty" Width="1.5" PointX="15.75" PointY="86" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Log" Width="1.5" PointX="12" PointY="95.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Manufacturer" Width="1.5" PointX="9.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ManufacturerTemplate" Width="1.5" PointX="16.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.MeasureDimension" Width="1.5" PointX="17.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.MeasureWeight" Width="1.5" PointX="17.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.MessageTemplate" Width="1.5" PointX="17.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.News" Width="1.5" PointX="15.75" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.NewsComment" Width="1.5" PointX="18" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.NewsLetterSubscription" Width="1.5" PointX="17.75" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Order" Width="1.5" PointX="21" PointY="61.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.OrderItem" Width="1.5" PointX="26.25" PointY="71.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.OrderNote" Width="1.5" PointX="23.25" PointY="69.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.PermissionRecord" Width="1.5" PointX="12.75" PointY="50.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Picture" Width="1.5" PointX="12.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Poll" Width="1.5" PointX="13.5" PointY="99.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.PollAnswer" Width="1.5" PointX="15.75" PointY="99.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.PollVotingRecord" Width="1.5" PointX="18" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.PredefinedProductAttributeValue" Width="1.5" PointX="18" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Product" Width="1.5" PointX="9.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Product_Category_Mapping" Width="1.5" PointX="15" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Product_Manufacturer_Mapping" Width="1.5" PointX="12" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Product_Picture_Mapping" Width="1.5" PointX="15" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Product_ProductAttribute_Mapping" Width="1.5" PointX="18" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Product_SpecificationAttribute_Mapping" Width="1.5" PointX="18" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Product_Supplier_Mapping" Width="1.5" PointX="18" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductAttribute" Width="1.5" PointX="15.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductAttributeCombination" Width="1.5" PointX="12" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductAttributeValue" Width="1.5" PointX="20.25" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductAvailabilityRange" Width="1.5" PointX="17.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductReview" Width="1.5" PointX="12" PointY="58.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductReviewHelpfulness" Width="1.5" PointX="14.25" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductTag" Width="1.5" PointX="12" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductTemplate" Width="1.5" PointX="0.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ProductWarehouseInventory" Width="1.5" PointX="15" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.QueuedEmail" Width="1.5" PointX="13" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.RecurringPayment" Width="1.5" PointX="23.25" PointY="79.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.RecurringPaymentHistory" Width="1.5" PointX="25.5" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.RelatedProduct" Width="1.5" PointX="2.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ReturnRequest" Width="1.5" PointX="12" PointY="125.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ReturnRequestAction" Width="1.5" PointX="18.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ReturnRequestReason" Width="1.5" PointX="19.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.RewardPointsHistory" Width="1.5" PointX="23.25" PointY="73.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.RolePermissions" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Roles" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ScheduleTask" Width="1.5" PointX="4.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.SearchTerm" Width="1.5" PointX="19.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Setting" Width="1.5" PointX="6.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Shipment" Width="1.5" PointX="23.25" PointY="87.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ShipmentItem" Width="1.5" PointX="25.5" PointY="87.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ShippingByTotal" Width="1.5" PointX="19.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ShippingByWeight" Width="1.5" PointX="19.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ShippingMethod" Width="1.5" PointX="0.75" PointY="54" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.ShoppingCartItem" Width="1.5" PointX="18" PointY="75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.SpecificationAttribute" Width="1.5" PointX="13.5" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.SpecificationAttributeOption" Width="1.5" PointX="15.75" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.StateProvince" Width="1.5" PointX="5.25" PointY="79" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.StockQuantityHistory" Width="1.5" PointX="12" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Store" Width="1.5" PointX="9.75" PointY="75.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.StoreMapping" Width="1.5" PointX="12" PointY="80.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.StorePickupPoint" Width="1.5" PointX="17.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Supplier" Width="1.5" PointX="15.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.TaxCategory" Width="1.5" PointX="19.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.TaxRate" Width="1.5" PointX="21.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.TierPrice" Width="1.5" PointX="23.25" PointY="63.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Topic" Width="1.5" PointX="0.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.TopicTemplate" Width="1.5" PointX="20.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Unit" Width="1.5" PointX="15.75" PointY="75.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.UrlRecord" Width="1.5" PointX="21.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.UserPermissions" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.UserPreferences" Width="1.5" PointX="21.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.UserRoles" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Users" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Vendor" Width="1.5" PointX="5.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.VendorNote" Width="1.5" PointX="8" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.Warehouse" Width="1.5" PointX="12.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kopjezwam_dbModel.VersionInfo" Width="1.5" PointX="21.75" PointY="17.125" IsExpanded="true" />
+        <AssociationConnector Association="kopjezwam_dbModel.AclRecord_CustomerRole" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ActivityLog_ActivityLogType" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ActivityLog_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Address_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Address_StateProvince" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Affiliate_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Customer_BillingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Customer_ShippingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Order_BillingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Order_PickupAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Order_ShippingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.AddressAttributeValue_AddressAttribute" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.BackInStockSubscription_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.BackInStockSubscription_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.BlogComment_BlogPost" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.BlogComment_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.BlogComment_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.BlogPost_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.CheckoutAttributeValue_CheckoutAttribute" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.StateProvince_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.CustomerPassword_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ExternalAuthenticationRecord_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ForumPost_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ForumSubscription_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ForumTopic_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Log_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.NewsComment_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.PollVotingRecord_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.PrivateMessage_FromCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.PrivateMessage_ToCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductReview_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ReturnRequest_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.RewardPointsHistory_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ShoppingCartItem_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.CustomerAttributeValue_CustomerAttribute" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.TierPrice_CustomerRole" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Discount_DiscountRequirements" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.DiscountUsageHistory_Discount" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.DiscountRequirement_ChildRequirements" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.DiscountUsageHistory_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.QueuedEmail_EmailAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Forum_ForumGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ForumTopic_Forum" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ForumPost_ForumTopic" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ForumPostVote_ForumPost" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.GiftCard_PurchasedWithOrderItem" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.GiftCardUsageHistory_GiftCard" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.GiftCardUsageHistory_UsedWithOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.LocaleStringResource_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.LocalizedProperty_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.NewsItem_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Poll_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductManufacturer_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.NewsComment_NewsItem" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.NewsComment_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.OrderItem_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.OrderNote_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.RecurringPayment_InitialOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.RewardPointsHistory_UsedWithOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Shipment_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.OrderItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductPicture_Picture" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.PollAnswer_Poll" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.PollVotingRecord_PollAnswer" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.PredefinedProductAttributeValue_ProductAttribute" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductAttributeCombination_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductAttributeMapping_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductCategory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductManufacturer_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductPicture_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductReview_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductSpecificationAttribute_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductSupplier_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductWarehouseInventory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ShoppingCartItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.StockQuantityHistory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.TierPrice_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductAttributeMapping_ProductAttribute" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductAttributeValue_ProductAttributeMapping" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductSpecificationAttribute_SpecificationAttributeOption" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductSupplier_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductSupplier_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductReview_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductReviewHelpfulness_ProductReview" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ProductWarehouseInventory_Warehouse" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.RecurringPaymentHistory_RecurringPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.FK_RolePermissions_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.FK_UserRoles_RoleId" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ShipmentItem_Shipment" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.SpecificationAttributeOption_SpecificationAttribute" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.StoreMapping_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.FK_UserPermissions_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.FK_UserRoles_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.VendorNote_Vendor" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Customer_CustomerRole_Mapping" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.CustomerAddresses" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Discount_AppliedToCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Discount_AppliedToManufacturers" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Discount_AppliedToProducts" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.PermissionRecord_Role_Mapping" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.Product_ProductTag_Mapping" ManuallyRouted="false" />
+        <AssociationConnector Association="kopjezwam_dbModel.ShippingMethodRestrictions" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
